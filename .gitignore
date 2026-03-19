@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.env
+!.env.example
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Node.js / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.tsbuildinfo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+# IDE
+.vscode/settings.json
+.idea/
+*.iml
+
+# Docker
+docker/volumes/
+
+# ML models (downloaded locally, large)
+backend/models/
+*.bin
+*.safetensors
+*.ot
+
+# Alembic
+# (migrations are checked in, but pyc files are not)
+backend/alembic/__pycache__/
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/

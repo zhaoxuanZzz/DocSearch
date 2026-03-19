@@ -1,0 +1,15 @@
+[ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".venv", "alembic/versions"]
+
+[ruff.lint]
+select = ["E", "F", "I", "UP", "B", "S"]
+ignore = ["S101", "B008"]
+
+[ruff.lint.per-file-ignores]
+"tests/**" = ["S", "B"]
+
+[ruff.format]
+quote-style = "double"
+indent-style = "space"
